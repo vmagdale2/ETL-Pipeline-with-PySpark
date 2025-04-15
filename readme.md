@@ -2,6 +2,16 @@
 
 This project demonstrates a full end-to-end ETL pipeline using PySpark to process and analyze retail purchase logs. Built as a portfolio-ready showcase for Big Data Engineering, it simulates a real-world scenario of data ingestion, transformation, aggregation, and export — while handling system-level challenges along the way.
 
+This project showcases:
+
+✅ PySpark (DataFrame API, SQL API)
+
+✅ ETL logic
+
+✅ Data modeling & analytics
+
+✅ Tableau visualizations
+
 ---
 
 ## 🧰 Tools & Technologies
@@ -50,6 +60,22 @@ retail_etl_project/
 - Encountered native I/O errors due to `NativeIO$Windows.access0` limitations on Windows.
 - ✅ Pivoted to using `toPandas().to_csv()` to ensure output delivery.
 
+
+## 📊 Tableau Dashboard
+
+Visual insights were created using the cleaned dataset.
+
+🔗 View Dashboard on Tableau Public
+
+The dashboard includes:
+
+- Top 10 Customers by Total Spend
+
+- Top 10 Products by Revenue
+
+- Revenue by Store Location
+
+- Daily Revenue Over Time
 ---
 
 ## 📌 Note on Hadoop & Windows Compatibility
@@ -129,8 +155,8 @@ Jupyter Notebook (for development)
 ## 🔗 Author
 
 **Veronica Magdaleno**  
-[GitHub Portfolio](https://github.com/your-username)  
-[Portfolio](https://linkedin.com/in/your-profile)  
+[Tableau](https://public.tableau.com/views/RetailPurchaseAnalyticsOverview/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+[Portfolio](https://www.notion.so/ETL-Pipeline-with-Spark-1d60746db024809f9b9af71d4594fcac)  
 Built as part of a Big Data Engineering portfolio project.
 
 Skills: PySpark, ETL, Data Modeling, Analytics, Jupyter
