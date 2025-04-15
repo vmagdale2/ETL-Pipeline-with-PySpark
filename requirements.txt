@@ -1,0 +1,15 @@
+# Core ETL & Big Data Processing
+pyspark==3.5.1
+
+# Jupyter Notebook Support
+Jupyterlab
+ipykernel
+
+# Optional: DataFrame Export Fallback
+pandas
+
+# Optional: Environment Compatibility
+py4j
+
+# Optional: For data preview or profiling
+matplotlib
